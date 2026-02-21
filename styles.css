@@ -14,21 +14,50 @@ nav{
     margin-top: 10px ;
     margin-left: 15px;
     margin-right: 15px;
-    background: rgba(255, 255, 255, 0.308);
-    font-weight: 600;
+    background: rgba(255, 255, 255, 0.151);
+    font-weight: 500;
     text-transform: uppercase;
-    color: white;
+    margin: 50px;
+
    
 }
 
 .hero{
   width: 100%;
-    height: 90vh;
+    height: 80vh;
     overflow: hidden;
 display: flex;
 justify-content: center;
+align-items: center;
+
+  position: relative;
+}
+.carousel
+{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    padding: 20px 10px;
+  filter: brightness(50%);
+   
+}
+.hero .carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(70%);
 }
 
+.nadpis {
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+  text-align: center;
+  color: white;
+}
 
 
 
