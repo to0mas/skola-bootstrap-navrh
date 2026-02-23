@@ -45,10 +45,10 @@ align-items: center;
   width: 100%;
   height: 100%;
   object-fit: cover;
+   transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
   border-radius: 10px;
   filter: brightness(70%);
 }
-
 .nadpis {
   position: absolute; 
   top: 50%;
@@ -59,5 +59,16 @@ align-items: center;
   color: white;
 }
 
-
+.card-body img{
+    width: 100%;
+   height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+        transition: all 0.5s ease-in-out;
+}
+.card-body img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    filter: brightness(50%);
+}
 
