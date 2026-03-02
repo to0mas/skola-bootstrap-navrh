@@ -14,7 +14,7 @@ nav{
     margin-top: 10px ;
     margin-left: 15px;
     margin-right: 15px;
-    background: rgba(255, 255, 255, 0.151);
+ background: rgba(66, 66, 66, 0.116);
     font-weight: 500;
     text-transform: uppercase;
     margin: 50px;
@@ -25,12 +25,10 @@ nav{
 .hero{
   width: 100%;
     height: 80vh;
-    overflow: hidden;
 display: flex;
-justify-content: center;
-align-items: center;
+    align-items: center;
+    justify-content: center;
 
-  position: relative;
 }
 .carousel
 {
@@ -39,12 +37,14 @@ align-items: center;
     overflow: hidden;
     padding: 20px 10px;
   filter: brightness(50%);
+  
    
 }
 .hero .carousel-inner img {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   object-fit: cover;
+ display: flex;
    transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
   border-radius: 10px;
   filter: brightness(70%);
@@ -56,19 +56,9 @@ align-items: center;
   transform: translate(-50%, -50%);
   z-index: 10; 
   text-align: center;
-  color: white;
-}
 
-.card-body img{
-    width: 100%;
-   height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-        transition: all 0.5s ease-in-out;
 }
-.card-body img:hover{
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
-    filter: brightness(50%);
-}
+.nadpis h1 {
+  color: #f0f0f0;}
+
 
