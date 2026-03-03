@@ -63,6 +63,22 @@ nav{
 font-size: 60px;
 
 }
+.card-logo{
+     position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; 
+
+
+}
+.card-logo img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: brightness(50%);
+}
 
 .nadpis h1 {
   color: #f0f0f0;}
@@ -84,7 +100,7 @@ font-size: 60px;
     border-radius: 10px;
    
     position: relative;
-    overflow: hidden; 
+   
 }
 .card img{
    width: 400px;
@@ -132,28 +148,28 @@ margin-top: -50px;
 }
 
 
-  .bg-color1,
+.bg-color1,
 .bg-color2,
 .bg-color3 {
-    display: block;  
-               /* ensure block-level for auto margins */
-    margin: 0 auto 5px;         /* centre horizontally, keep bottom gap */
+    display: flex;
+    justify-content: center;  
+    gap: 5px;
     border-radius: 5px;
     padding: 5px;
-    width: 200px;               /* default width, override per selector below */
+    padding: 5px 10px;
+    width: 200px;               
 }
 
 .bg-color1 {
-    background-color: #ff5733;
+    background-color: #bb2d0d;
     width: 200px;
 }
 .bg-color2 {
-    background-color: #33c1ff;
+    background-color: #4ea8ce;
 }
 .bg-color3 {
-    background-color: #75ff33;
-    padding: 5px 10px;          /* extra side padding kept */
+    background-color: #3e9118;
+    padding: 5px 10px;         
+
 }
-
-
 
