@@ -11,7 +11,10 @@ html{
     scroll-behavior: smooth;
 }
 
-
+a{
+    text-decoration: none;
+    color: #000;
+}
 nav{
     border-radius: 20px;
     margin-top: 10px ;
