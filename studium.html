@@ -11,51 +11,36 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top shadow-lg text-white">
-    <div class="container-fluid px-4">
-        <a href="#" class="navbar-brand fw-bold text-white fs-4">SŠTS</a>
-
-        <button class="navbar-toggler border-0" type="button"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#top-navbar"
-                aria-controls="top-navbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top shadow-lg">
+  <div class="container-fluid px-4">
+    <a href="index.html" class="navbar-brand fw-bold fs-4">SŠTS</a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top-navbar" aria-controls="top-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="top-navbar">
+      <ul class="navbar-nav ms-auto text-center text-lg-start">
+        <li class="nav-item px-3 py-2">
+          <a class="nav-link" href="#news">Aktuality</a>
+        </li>
+        <li class="nav-item px-3 py-2">
+          <a class="nav-link" href="#about">Škola</a>
+        </li>
+        <li class="nav-item px-3 py-2">
+          <a class="nav-link" href="studium.html">Studium</a>
+        </li>
+        <li class="nav-item px-3 py-2">
+          <a class="nav-link" href="#obory">Uchazeči</a>
+        </li>
+        <li class="nav-item px-3 py-2">
+          <a class="nav-link" href="index.html">Projekty</a>
+        </li>
+        <li class="nav-item px-3 py-2">
+          <a class="nav-link" href="#">Kontakty</a>
+        </li>
+      </ul>
     </div>
-
-    <div class="offcanvas offcanvas-end text-white" tabindex="-1" id="top-navbar" aria-labelledby="offcanvasLabel">
-        <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-
-        <div class="offcanvas-body">
-            <ul class="navbar-nav ms-auto text-center text-lg-start">
-                <li class="nav-item px-3 py-2">
-                    <a class="nav-link text-white" href="index.html">Aktuality</a>
-                </li>
-                <li class="nav-item px-3 py-2">
-                    <a class="nav-link text-white" href="index.html">Škola</a>
-                </li>
-                <li class="nav-item px-3 py-2">
-                    <a class="nav-link text-white" href="studium.html">Studium</a>
-                </li>
-                <li class="nav-item px-3 py-2">
-                    <a class="nav-link text-white" href="index.html">Uchazeči</a>
-                </li>
-                <li class="nav-item px-3 py-2">
-                    <a class="nav-link text-white" href="#">Projekty</a>
-                </li>
-                <li class="nav-item px-3 py-2">
-                    <a class="nav-link text-white" href="#">Kontakty</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+  </div>
 </nav>
-    
-
-
 
 
   
@@ -66,27 +51,27 @@
 
     <div class="content it">
       <div class="nadpis-obory-podrobneji">
-        <h1 class="text-white mb-5">Informační Technologie</h1>
+        <h1 class="display-3 text-white mb-5 fw-bold">Informační Technologie</h1>
         
-        <div class="container text-white">
-          <div class="row">
-            <div class="col-lg-6 mb-4">
-              <h5 class="fw-bold mb-3">Uplatnění absolventů</h5>
+        <div class="container-fluid px-5 text-white">
+          <div class="row g-5">
+            <div class="col-lg-6 mb-5">
+              <h3 class="fw-bold mb-4 fs-2">Uplatnění absolventů</h3>
               <ul class="list-unstyled">
-                <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Návrh a realizace HW</li>
-                <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Programování aplikací</li>
-                <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>Správa sítí a OS</li>
-                <li class="mb-2"><i class="fa-solid fa-check text-success me-2"></i>IT podpora a prodej</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>Návrh a realizace HW</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>Programování aplikací</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>Správa sítí a OS</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>IT podpora a prodej</li>
               </ul>
             </div>
 
-            <div class="col-lg-6 mb-4">
-              <h5 class="fw-bold mb-3">Pracovní pozice</h5>
+            <div class="col-lg-6 mb-5">
+              <h3 class="fw-bold mb-4 fs-2">Pracovní pozice</h3>
               <ul class="list-unstyled">
-                <li class="mb-2"><i class="fa-solid fa-briefcase text-warning me-2"></i>Programátor</li>
-                <li class="mb-2"><i class="fa-solid fa-briefcase text-warning me-2"></i>Technik IT</li>
-                <li class="mb-2"><i class="fa-solid fa-briefcase text-warning me-2"></i>Správce systémů</li>
-                <li class="mb-2"><i class="fa-solid fa-briefcase text-warning me-2"></i>IT specialista</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>Programátor</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>Technik IT</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>Správce systémů</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>IT specialista</li>
               </ul>
             </div>
           </div>
@@ -96,20 +81,99 @@
 
     <div class="content lyceum">
         <div class="nadpis-obory-podrobneji">
-            <h1 class="fs-1 text-white  ">Lyceum</h1>
+            <h1 class="display-3 text-white mb-5 fw-bold">Lyceum 2.0</h1>
+
+            <div class="container-fluid px-5 text-white">
+              <div class="row g-5">
+                <div class="col-lg-6 mb-5">
+                  <h3 class="fw-bold mb-4 fs-2">O oboru</h3>
+                  <ul class="list-unstyled">
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-graduation-cap text-info me-3" style="font-size: 1.5rem;"></i>Všeobecně vzdělávací obor</li>
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-brain text-info me-3" style="font-size: 1.5rem;"></i>Fokus na kritické myšlení</li>
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-language text-info me-3" style="font-size: 1.5rem;"></i>Jazykové schopnosti</li>
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-computer text-info me-3" style="font-size: 1.5rem;"></i>Technické dovednosti</li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-6 mb-5">
+                  <h3 class="fw-bold mb-4 fs-2">Charakteristika</h3>
+                  <ul class="list-unstyled">
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-check-double text-success me-3" style="font-size: 1.5rem;"></i>Teorie + praktické zkušenosti</li>
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-check-double text-success me-3" style="font-size: 1.5rem;"></i>Přirozená reakce na změny vzdělání</li>
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-check-double text-success me-3" style="font-size: 1.5rem;"></i>Specializace od 3. ročníku</li>
+                    <li class="mb-3 fs-5"><i class="fa-solid fa-check-double text-success me-3" style="font-size: 1.5rem;"></i>Příprava pro vysoké školy i praxi</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
       </div>
     </div>
 
     <div class="content kucharcisnik">
          <div class="nadpis-obory-podrobneji">
-            <h1 class="text-white">Kuchař-Číšník</h1>
+            <h1 class="display-3 text-white mb-5 fw-bold">Kuchař - Číšník</h1>
+  <div class="container-fluid px-5 text-white">
+          <div class="row g-5">
+            <div class="col-lg-6 mb-5">
+              <h3 class="fw-bold mb-4 fs-2">Uplatnění absolventů</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>Kuchyně</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>Restaurace</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>Hotelový průmysl</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-check text-success me-3" style="font-size: 1.5rem;"></i>Event management</li>
+              </ul>
+            </div>
 
+            <div class="col-lg-6 mb-5">
+              <h3 class="fw-bold mb-4 fs-2">Pracovní pozice</h3>
+              <ul class="list-unstyled">
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>Kuchař</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>Číšník</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>Manažer restaurace</li>
+                <li class="mb-3 fs-5"><i class="fa-solid fa-briefcase text-warning me-3" style="font-size: 1.5rem;"></i>Nejlepší pracovní pozice</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
    </div>
 
+
+
+<footer class="footer d-flex flex-column">
+
+  <div class="footer-backg h-50 h-sm-30 w-100"></div>
+
+
+
+
+
+  <div class="container-fluid mt-5 footer-info-about">
+    <div class="row">
+        
+      <div class="col-12 col-md-6 footer-info-about-text text-center text-md-start">
+        <h2 class="fw-semibold">Střední škola technická a služeb</h2>
+        <p class="fw-normal">Dřevnická 1788, 760 01 Zlín</p>
+        <p class="fw-normal">IČ: 25327755 | IZO: 107870321</p>
+        <p class="fw-lighter">Střední škola technická a služeb je moderní školní zařízení, které poskytuje kvalitní vzdělávání v oblasti technických a služebních oborů.</p>
+      </div>
+
+      <div class="col-12 col-md-6 footer-info-about-form text-center text-md-start">
+        <h2 class="display-5 fw-bold">Co vás zajímá?</h2>
+        <div class="footer-info-about-form-input d-flex flex-column gap-2 mt-3">
+          <input type="email" class="form-control" placeholder="Váš email">
+          <textarea  class="form-control" placeholder="Zpráva"></textarea>
+          <button class="btn btn-dark btn-lg fw-bold">Odeslat</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</footer>
 
 
 
