@@ -1,6 +1,6 @@
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);//registrace pluginu ScrollTrigger pro animace při posouvání stránky
 
-const contents = gsap.utils.toArray("#horizontal .content");
+const contents = gsap.utils.toArray("#horizontal .content");//
 
 gsap.to(contents, {
 
